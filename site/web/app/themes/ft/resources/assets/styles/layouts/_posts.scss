@@ -1,0 +1,13 @@
+//.post{}
+
+ul.post-categories {
+  list-style: none;
+  -webkit-padding-start: 0;
+
+  li {
+    background: $color-white;
+    border: solid 1px $color-dark;
+    display: inline-block;
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,19 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  foodtactics.com:
+    site_hosts:
+      - canonical: foodtactics.test
+        redirects:
+          - www.foodtactics.test
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: studio@harrycresswell.com
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
