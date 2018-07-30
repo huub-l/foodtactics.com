@@ -139,6 +139,11 @@
                 "wordpress/core-implementation": "4.9.7"
             },
             "type": "wordpress-core",
+            "extra": {
+                "patches_applied": {
+                    "Prevent E_DEPRECATED error messages when debug is enabled": "wordpress.patch"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
