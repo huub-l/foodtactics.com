@@ -18,3 +18,6 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+
+# Trellis DB Uploads Migration
+database_backup/*

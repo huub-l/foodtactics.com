@@ -4,4 +4,3 @@ vagrant.local.yml
 vendor/roles
 *.py[co]
 *.retry
-database_backup/*
