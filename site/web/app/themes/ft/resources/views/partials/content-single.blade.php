@@ -12,8 +12,4 @@
   </div>
     @include('partials/single-image')
     @include('partials/single-recipe')
-  <footer class="tc center mw6">
-    {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
-    @php(the_category())
-  </footer>
 </article>
