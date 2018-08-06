@@ -88,4 +88,14 @@ add_filter('sage/display_sidebar', function ($display) {
 });
 
 
+/**
+ * Default social images
+ */
+add_filter('the_seo_framework_og_image_args', function($args) {
+    $args['image'] = home_url('https://foodtactics.com/app/themes/ft/dist/images/foodtactics_0bc54a96.svg');
 
+    return $args;
+});
+
+//remove plugin credit/notice added to your source
+add_filter('the_seo_framework_indicator', '__return_false');
