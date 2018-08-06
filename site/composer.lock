@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d133195067d625dddb1ff42a5f81777b",
+    "content-hash": "8b8e13858feb9fd33dc680550e97606c",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,38 +402,6 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
-            "name": "wp-sync-db/wp-sync-db",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
-                "reference": "8f18390a83374089acfac202491e78d4938616fd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
-                "reference": "8f18390a83374089acfac202491e78d4938616fd",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.6"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
-            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
-            "keywords": [
-                "db",
-                "plugin",
-                "wordpress",
-                "wp-sync-db"
-            ],
-            "time": "2016-04-24T08:56:12+00:00"
-        },
-        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "5.6.10",
             "source": {
@@ -452,46 +420,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
-            "name": "wpackagist-plugin/cloudflare",
-            "version": "3.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cloudflare/",
-                "reference": "tags/3.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudflare.3.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cloudflare/"
-        },
-        {
-            "name": "wpackagist-plugin/do-spaces-sync",
-            "version": "1.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/do-spaces-sync/",
-                "reference": "tags/1.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/do-spaces-sync.1.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/do-spaces-sync/"
         },
         {
             "name": "wpackagist-plugin/ilab-media-tools",
@@ -515,15 +443,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.3.6",
+            "version": "2.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.3.6"
+                "reference": "tags/2.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/polylang.2.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -629,9 +557,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wp-sync-db/wp-sync-db": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
