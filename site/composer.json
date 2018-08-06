@@ -48,7 +48,7 @@
     "wpackagist-plugin/autodescription":"3.0.6",
     "wpackagist-plugin/google-sitemap-generator":"4.0.9",
     "wpackagist-plugin/wps-hide-login":"1.4.3",
-    "wpackagist-plugin/wp-time-capsule":"1.19.2"
+    "wpackagist-plugin/updraftplus":"1.14.12"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

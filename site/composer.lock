@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f4b597dbd4f1fa2bb5275f60ab4af75",
+    "content-hash": "5fb691b8d29f4590850733e531b841f8",
     "packages": [
         {
             "name": "composer/installers",
@@ -522,6 +522,26 @@
             "homepage": "https://wordpress.org/plugins/simple-social-icons/"
         },
         {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.14.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.14.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.14.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
             "name": "wpackagist-plugin/wordfence",
             "version": "7.1.10",
             "source": {
@@ -540,26 +560,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-time-capsule",
-            "version": "1.19.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-time-capsule/",
-                "reference": "tags/1.19.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-time-capsule.1.19.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-time-capsule/"
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
