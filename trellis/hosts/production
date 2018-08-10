@@ -2,8 +2,8 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-production_host ansible_host=159.89.26.239
-159.89.26.239
+production_host ansible_host=178.62.22.58
+178.62.22.58
 
 [web]
-159.89.26.239
+178.62.22.58
