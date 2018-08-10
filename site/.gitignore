@@ -19,5 +19,5 @@ web/.htaccess
 vendor/*
 !vendor/.gitkeep
 
-# Trellis DB Uploads Migration
+# Trellis DB Uploads Migration https://github.com/valentinocossar/trellis-database-uploads-migration
 database_backup/*
