@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2b2cfb014c9acae17a1e76457c2169f",
+    "content-hash": "66d1a8de079770741bf34da80b476aab",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,6 +402,38 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "575aef7cc5fa005d0c104a83426d91435ebd5b8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/575aef7cc5fa005d0c104a83426d91435ebd5b8b",
+                "reference": "575aef7cc5fa005d0c104a83426d91435ebd5b8b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2018-08-07T15:10:28+00:00"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "5.6.10",
             "source": {
@@ -480,6 +512,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-social-icons/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-2-step-verification",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-2-step-verification/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-2-step-verification.1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-2-step-verification/"
         }
     ],
     "packages-dev": [
@@ -537,7 +589,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
