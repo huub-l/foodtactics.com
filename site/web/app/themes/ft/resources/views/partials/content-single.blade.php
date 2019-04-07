@@ -1,5 +1,5 @@
 <article @php(post_class())>
-  <header class="tc mb5">
+  <header class="tc">
     <h1 class="entry-title">{{ get_the_title() }}</h1>
   </header>
   @if (has_post_thumbnail())

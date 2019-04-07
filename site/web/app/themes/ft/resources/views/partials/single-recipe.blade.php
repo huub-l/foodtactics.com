@@ -1,19 +1,36 @@
-<div class="fl w-40 pr4">
-  <div class="entry-ingredients mt4">
+<div class="recipe mt4">
+  <input id="tab-one" type="radio" name="grp" checked="checked"/>
+  <label class="recipe-label" for="tab-one">Ingredients</label>
+  <div class="recipe-content">
+    <p><?= $recipe_ingredients; ?></p>
+  </div>
+
+  <input id="tab-two" type="radio" name="grp" />
+  <label class="recipe-label" for="tab-two">Tactic</label>
+  <div class="recipe-content">
+    <?= $recipe_tactic; ?>
+  </div>
+
+  <div class="entry-overview mt4">
+    <p><?= $recipe_overview; ?></p>
+  </div>
+</div>
+
+<!-- If desktop then show recipeDesktop -->
+<div class="recipeDesktop">
+  <div class="recipeDesktop-content">
+    <p><?= $recipe_overview; ?></p>
     <h3>Ingredients</h3>
     <p><?= $recipe_ingredients; ?></p>
   </div>
-  <footer>
-    {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
-    @php(the_category())
-  </footer>
-</div>
-<div class="fl w-60 pl4">
-  <div class="entry-tactic mt4">
+  <div class="recipeDesktop-content">
     <h3>Tactic</h3>
-    <p><?= $recipe_tactic; ?></p>
+    <?= $recipe_tactic; ?>
   </div>
 </div>
-<div class="entry-overview mt4">
-  <p><?= $recipe_overview; ?></p>
+
+<div>
+{!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+    @php(the_category())
 </div>
+
